@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="BadegeImageView">
+    <attr name="badegeColor" format="color"/>
+    <attr name="badegeSize" format="dimension"/>
+    <attr name="showBadege" format="boolean"/>
+    <attr name="number" format="integer"/>
+    <attr name="numberTextSize" format="float"/>
+    <attr name="numberTextColor" format="color"/>
+    <attr name="showNumber" format="boolean"/>
+    <attr name="badegeMarginTop" format="dimension"/>
+    <attr name="badegeMarginRight" format="dimension"/>
+    <attr name="badegeUsePadding" format="boolean"/>
+  </declare-styleable>
+</resources>

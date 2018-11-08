@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <com.citsin.widget.BadegeImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher_round"
+    app:showBadege="true"
+    app:badegeSize="16dp"
+    android:padding="8dp"
+    app:badegeColor="#00FF00"
+    app:showNumber="true"
+    app:number="15"
+    />
+  <com.citsin.widget.BadegeImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher_round"
+    app:showBadege="true"
+    app:badegeSize="16dp"
+    android:padding="8dp"
+    app:badegeColor="#ff0000"
+    app:showNumber="false"
+    app:number="15"
+    />
+
+  <com.citsin.widget.BadegeImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher_round"
+    app:showBadege="true"
+    app:badegeSize="16dp"
+    android:padding="8dp"
+    app:badegeMarginTop="4dp"
+    app:badegeMarginRight="4dp"
+    app:badegeColor="#00FF00"
+    app:showNumber="true"
+    app:number="15"
+    />
+
+  <com.citsin.widget.BadegeImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher_round"
+    app:showBadege="true"
+    app:badegeSize="16dp"
+    android:padding="8dp"
+    app:badegeColor="#ff0000"
+    app:badegeMarginTop="4dp"
+    app:badegeMarginRight="4dp"
+    app:showNumber="false"
+    app:number="15"
+    app:badegeUsePadding="false"
+    />
+</LinearLayout>
